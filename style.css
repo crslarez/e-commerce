@@ -1,0 +1,9 @@
+.cart-btn + ol {
+  position: absolute;
+  display: none;
+  margin-left: -7rem;
+}
+
+.cart-btn:hover + ol {
+  display: block;
+}

@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://www.productosdeasturias.com/2717/harina-de-maiz.jpg",
+      "type": "Harinas",
+      "name": "Harina de Maíz",
+      "weight": "1kg",
+      "priceNow": 3200,
+      "priceOld": 3800,
+      "isFavorite": false,
+      "isToBuy": true,
+      "itemsToBuy": 2
+    },
+    {
+      "id": 2,
+      "img": "https://statics-cuidateplus.marca.com/cms/styles/ratio_1_1/azblob/queso-rallado-envasado.jpg",
+      "type": "Lácteos",
+      "name": "Queso Amarillo",
+      "weight": "4kg",
+      "priceNow": 20150,
+      "priceOld": 24300,
+      "isFavorite": false,
+      "isToBuy": false,
+      "itemsToBuy": 0
+    },
+    {
+      "id": 3,
+      "img": "https://gestion.pe/resizer/VeE_JUXtoTZqw05i5hNOVEBk9vM=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/LTMNZW2CAVDCLJKXKJV6WBYZTY.jpg",
+      "type": "Lácteos",
+      "name": "Leche",
+      "weight": "1lts",
+      "priceNow": 12000,
+      "priceOld": 14600,
+      "isFavorite": false,
+      "isToBuy": false,
+      "itemsToBuy": 0
+    },
+    {
+      "id": 4,
+      "img": "https://www.gastrolabweb.com/u/fotografias/m/2021/5/4/f638x638-12673_70840_5050.jpg",
+      "type": "Jugos",
+      "name": "Jugo de Naranja",
+      "weight": "1lts",
+      "priceNow": 8100,
+      "priceOld": 9800,
+      "isFavorite": false,
+      "isToBuy": false,
+      "itemsToBuy": 0
+    },
+    {
+      "id": 5,
+      "img": "https://www.vidactual.com/rcpmaker/wp-content/uploads/2018/10/Jamon-de-pierna-glaseado-1-500x500.jpg",
+      "type": "Embutidos",
+      "name": "Jamón de Pierna",
+      "weight": "1kg",
+      "priceNow": 16000,
+      "priceOld": 18400,
+      "isFavorite": false,
+      "isToBuy": false,
+      "itemsToBuy": 0
+    },
+    {
+      "id": 6,
+      "img": "https://t1.rg.ltmcdn.com/es/posts/8/9/5/mantequilla_casera_con_nata_68598_600_square.jpg",
+      "type": "Lácteos",
+      "name": "Mantequilla",
+      "weight": "1kg",
+      "priceNow": 8900,
+      "priceOld": 10500,
+      "isFavorite": false,
+      "isToBuy": false,
+      "itemsToBuy": 0
+    },
+    {
+      "id": 7,
+      "img": "https://www.comprarlotes.com/uploads/users/user2430/gallery/4012_spaghettitrafilatibronzo1-hover.jpg",
+      "type": "Pastas",
+      "name": "Spaguettis",
+      "weight": "1kg",
+      "priceNow": 5200,
+      "priceOld": 6100,
+      "isFavorite": false,
+      "isToBuy": false,
+      "itemsToBuy": 0
+    },
+    {
+      "id": 8,
+      "img": "https://cdn.shopify.com/s/files/1/0480/4126/3254/products/Textura_Fettuccine_d88044de-149b-45f9-aff4-c911a833f739_1000x.png?v=1618602032",
+      "type": "Pastas",
+      "name": "Fetuccini de Espinacas",
+      "weight": "1kg",
+      "priceNow": 6500,
+      "priceOld": 7100,
+      "isFavorite": false,
+      "isToBuy": false,
+      "itemsToBuy": 0
+    },
+    {
+      "id": 9,
+      "img": "https://miscompras.uy/wp-content/uploads/2020/12/MortadelaArizona-1.jpg",
+      "type": "Embutidos",
+      "name": "Mortadela Tapara",
+      "weight": "1kg",
+      "priceNow": 7300,
+      "priceOld": 8200,
+      "isFavorite": false,
+      "isToBuy": false,
+      "itemsToBuy": 0
+    },
+    {
+      "id": 10,
+      "img": "https://www.comfruttiperu.com/wp-content/uploads//2021/01/harina-de-trigo.jpg",
+      "type": "Harinas",
+      "name": "Harina de Trigo",
+      "weight": "1kg",
+      "priceNow": 4200,
+      "priceOld": 4900,
+      "isFavorite": false,
+      "isToBuy": false,
+      "itemsToBuy": 0
+    }
+  ]
+}
