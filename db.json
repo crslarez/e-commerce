@@ -120,5 +120,22 @@
       "isToBuy": false,
       "itemsToBuy": 0
     }
+  ],
+  
+  "buy": [
+    [
+      {
+        "id": 2,
+        "img": "https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750302043007L.jpg",
+        "type": "Lácteos",
+        "name": "queso cheddar",
+        "weight": "4kg",
+        "priceNow": 20150,
+        "priceOld": 24300,
+        "isFavorite": false,
+        "isToBuy": true,
+        "itemsToBuy": 1
+      }
+    ]
   ]
 }

@@ -1,4 +1,5 @@
 const API_URL = "http://localhost:3000/products";
+const API_BUY_URL = "http://localhost:3000/buy";
 
 export const getProducts = async () => {
   try {
@@ -12,7 +13,7 @@ export const getProducts = async () => {
 export const getSearchProducts = async (search) => {
   try {
     const request = await (await fetch(API_URL + search)).json();
-    console.log(request);
+   
     return request;
   } catch (error) {
     console.error(error);
@@ -25,6 +26,23 @@ export const updateProduct = async (id, newValue = {}) => {
     let response = await fetch(API_URL + "/" + id, {
       method: "PUT",
       body: JSON.stringify({ ...propertyById, ...newValue }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    let data = await response.json();
+    return data;
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+export const saveBuy = async (items) => {
+  try {
+    
+    let response = await fetch(API_BUY_URL, {
+      method: "POST",
+      body: JSON.stringify(items),
       headers: {
         "Content-Type": "application/json",
       },

@@ -24,8 +24,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
 
     document.querySelectorAll(".remove-btn").forEach((removeBtn) => {
-      removeBtn.addEventListener("click", () => {
-        updateProduct(removeBtn.id, { isFavorite: false });
+      removeBtn.addEventListener("click",async () => {
+        await updateProduct(removeBtn.id, { isFavorite: false });
+        window.location.reload()
       });
     });
   });
