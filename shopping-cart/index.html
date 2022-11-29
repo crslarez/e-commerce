@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,11 +12,27 @@
 </head>
 
 <body>
+    <nav class="navbar bg-success mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 fw-bold text-light" href="../index.html">Fast<span
+                    class=" text-dark">kart</span>.</a>
+            <span class="navbar-text text-light">
+                <span class="text-decoration-underline">Buy Now!</span>
+            </span>
+        </div>
+    </nav>
 
-    <div class="d-flex flex-wrap gap-3 justify-content-center col-10 mb-5" id="container-cards"></div>
+    <div class="d-flex flex-wrap gap-3 justify-content-center col-10 mb-5 m-auto" id="container-cards"></div>
 
-   
-    <button id="buy">Comprar</button>
+    <button id="formUser"
+        class="w-75 m-auto d-flex justify-content-center border-bottom border-0 bg-danger bg-opacity-50 text-dark fs-5 fw-bold p-1">Proceso
+        de chequeo</button>
+    <div id="container-form"></div>
+    <button id="buy"
+        class="w-75 m-auto d-flex justify-content-center border-bottom border-0 bg-danger bg-opacity-50 fs-5 fw-bold p-1 mb-5">
+        Comprar
+    </button>
+
     <script src="index.js" type="module"></script>
 
 </body>

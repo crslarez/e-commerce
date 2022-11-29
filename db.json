@@ -8,9 +8,9 @@
       "weight": "1kg",
       "priceNow": 3200,
       "priceOld": 3800,
-      "isFavorite": false,
+      "isFavorite": true,
       "isToBuy": true,
-      "itemsToBuy": 2
+      "itemsToBuy": 1
     },
     {
       "id": 2,
@@ -21,8 +21,8 @@
       "priceNow": 20150,
       "priceOld": 24300,
       "isFavorite": false,
-      "isToBuy": false,
-      "itemsToBuy": 0
+      "isToBuy": true,
+      "itemsToBuy": 1
     },
     {
       "id": 3,
@@ -32,9 +32,9 @@
       "weight": "1lts",
       "priceNow": 12000,
       "priceOld": 14600,
-      "isFavorite": false,
-      "isToBuy": false,
-      "itemsToBuy": 0
+      "isFavorite": true,
+      "isToBuy": true,
+      "itemsToBuy": 1
     },
     {
       "id": 4,
@@ -121,18 +121,41 @@
       "itemsToBuy": 0
     }
   ],
-  
   "buy": [
     [
       {
+        "id": 1,
+        "img": "https://www.productosdeasturias.com/2717/harina-de-maiz.jpg",
+        "type": "Harinas",
+        "name": "Harina de Maíz",
+        "weight": "1kg",
+        "priceNow": 3200,
+        "priceOld": 3800,
+        "isFavorite": true,
+        "isToBuy": true,
+        "itemsToBuy": 1
+      },
+      {
         "id": 2,
-        "img": "https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750302043007L.jpg",
+        "img": "https://statics-cuidateplus.marca.com/cms/styles/ratio_1_1/azblob/queso-rallado-envasado.jpg",
         "type": "Lácteos",
-        "name": "queso cheddar",
+        "name": "Queso Amarillo",
         "weight": "4kg",
         "priceNow": 20150,
         "priceOld": 24300,
         "isFavorite": false,
+        "isToBuy": true,
+        "itemsToBuy": 1
+      },
+      {
+        "id": 3,
+        "img": "https://gestion.pe/resizer/VeE_JUXtoTZqw05i5hNOVEBk9vM=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/LTMNZW2CAVDCLJKXKJV6WBYZTY.jpg",
+        "type": "Lácteos",
+        "name": "Leche",
+        "weight": "1lts",
+        "priceNow": 12000,
+        "priceOld": 14600,
+        "isFavorite": true,
         "isToBuy": true,
         "itemsToBuy": 1
       }

@@ -2,32 +2,47 @@
   position: absolute;
   display: none;
   margin-left: -7rem;
+  background-color: aquamarine;
+  width: 10%;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 .cart-btn:hover + ol {
   display: block;
 }
 
-.pointer-none{
-    pointer-events: none;
+.list {
+  display: flex;
 }
 
-.banner-container{
-    display: flex;
-    flex-wrap: wrap ;
-    gap: 1.5rem;
-    justify-content: center;
+.footer {
+  display: flex;
 }
 
-.banner-container.banner{
-    flex: 1 1 40rem;
-    height: 25rem;
-    overflow: hidden;
-    position: relative;
+.footer div {
+  width: 10%;
 }
 
-.banner-container.banner img{
-    height: 100%;
+.pointer-none {
+  pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  .list {
+    display: block;
     width: 100%;
-    object-fit: cover;
+  }
+
+  .container-list {
+    width: 100%;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .footer div {
+    width: 100%;
+  }
 }

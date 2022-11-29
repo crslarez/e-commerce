@@ -13,7 +13,6 @@ export const getProducts = async () => {
 export const getSearchProducts = async (search) => {
   try {
     const request = await (await fetch(API_URL + search)).json();
-   
     return request;
   } catch (error) {
     console.error(error);
@@ -39,7 +38,6 @@ export const updateProduct = async (id, newValue = {}) => {
 
 export const saveBuy = async (items) => {
   try {
-    
     let response = await fetch(API_BUY_URL, {
       method: "POST",
       body: JSON.stringify(items),
